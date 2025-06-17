@@ -12,7 +12,7 @@ import numpy as np
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 
-!pip install openpyxl scikit-learn --quiet
+pip install openpyxl scikit-learn --quiet
 
 df = pd.read_excel("diabetes.xlsx")  # File name must match exactly
 
