@@ -14,7 +14,7 @@ import pandas as pd
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 
-!pip install streamlit pyngrok openpyxl --quiet
+
 st.title("Diabetes Prediction using Logistic Regression")
 
 # ✅ Read Excel file directly from same folder (no upload needed)
