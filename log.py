@@ -7,13 +7,14 @@ Original file is located at
     https://colab.research.google.com/drive/1NJ1mm3xdaD7Lv9ApgU73zt5aM7W7fs6e
 """
 
-!pip install streamlit pyngrok openpyxl --quiet
+
 
 import streamlit as st
 import pandas as pd
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 
+!pip install streamlit pyngrok openpyxl --quiet
 st.title("Diabetes Prediction using Logistic Regression")
 
 # ✅ Read Excel file directly from same folder (no upload needed)
